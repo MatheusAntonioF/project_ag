@@ -1,14 +1,9 @@
 <h1>Project AG</h1>
 
-<p>
-</p>
 
+![WhatsApp Image 2020-07-13 at 7 42 18 PM](https://user-images.githubusercontent.com/40186689/87360680-083d4280-c541-11ea-998a-6e5f51b9bfbd.jpeg)
 
-![Captura de tela de 2020-04-16 19-08-42](https://user-images.githubusercontent.com/40186689/79511561-e7cf1c00-8015-11ea-80bc-c61a434412c2.png)
-
-
-
-<h2>Install.</h2>
+<h2>Install</h2>
 
 <h5>Exec git clone </h5>
 
