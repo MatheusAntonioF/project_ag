@@ -1,13 +1,14 @@
 module.exports = {
   env: {
     es6: true,
+    jest: true,
     browser: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
-    _DEV_: true,
+    __DEV__: true,
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -25,6 +26,7 @@ module.exports = {
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'react/jsx-one-expression-per-line': 'off',
     'global-require': 'off',
+    'react-native/no-raw-text': 'off',
     'no-param-reassign': 'off',
     'no-underscore-dangle': 'off',
     camelcase: 'off',
@@ -32,6 +34,18 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'no-use-before-define': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'react/button-has-type': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'no-nested-ternary': 'off',
+    'no-shadow': 'off',
+    'no-restricted-globals': 'off',
+    'no-plusplus': 'off',
+    'no-alert': 'off',
+    'no-new': 'off',
+    'consistent-return': 'off',
   },
   settings: {
     'import/resolver': {
